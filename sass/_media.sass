@@ -1,0 +1,116 @@
+@media (max-width: 1200px)
+    .header
+        &-wrapper
+            justify-content: center
+        &-media_hide
+            display: none
+        &-bottom
+            &_list
+                padding-left: 0
+                justify-content: center
+    .logo
+        display: none
+    .title
+        &-main
+            font-size: 3.75rem
+            line-height: 3.25rem
+            &::before
+                font-size: 3.75rem
+                line-height: 4.25rem
+                right: 0
+        &-secondary
+            font-size: 5rem
+            line-height: 5rem
+            &::before
+                font-size: 5.625rem
+                line-height: 6rem
+                top: -4rem
+        &-actual
+            font-size: 6.25rem
+            line-height: 6.25rem
+            &::before
+                font-size: 5rem
+                line-height: 10rem
+        &-contacts
+            font-size: 4.375rem
+            line-height: 4.375rem
+            &::before
+                font-size: 6.25rem
+                line-height: 10rem
+                top: -3rem
+    .clothes
+        &-wrapper_btn
+            margin: 0 auto
+    .contacts
+        &-info
+            flex-direction: column
+            row-gap: 1rem
+    .footer
+        &-wrapper
+            text-align: center
+            flex-direction: column
+            row-gap: 1rem
+        &-policy
+            order: 3
+@media (max-width: 991px)
+    .actual
+        &-item
+            justify-content: center
+@media (max-width: 767px)
+    .header
+        &-wrapper
+            justify-content: space-between
+        &-media_hide
+            display: flex
+            column-gap: 2rem
+        &-bottom_list
+            display: none
+    .burger
+        display: block
+    .navigation
+        display: none
+    .title
+        &-main
+            padding-top: 3.5rem
+            font-size: 2.5rem
+            line-height: 2.125rem
+            &::before
+                font-size: 3.75rem
+                line-height: 3.25rem
+        &-secondary
+            font-size: 3.75rem
+            line-height: 3.75rem
+            &::before
+                font-size: 3.75rem
+                line-height: 4rem
+                top: -2rem
+        &-actual
+            font-size: 3.75rem
+            line-height: 3.75rem
+            &::before
+                font-size: 3rem
+                line-height: 8rem
+        &-contacts
+            text-align: center
+            font-size: 3.125rem
+            line-height: 3.125rem
+            &::before
+                content: ''
+    .season
+        &-slider_about
+            display: none
+        &-slider_btn
+            display: none
+@media (max-width: 575px)
+    .title
+        text-align: center
+        &-main
+            &::before
+                content: ''
+        &-secondary
+            &::before
+                content: ''
+        &-actual
+            font-size: 2.9rem
+            &::before
+                content: ''
